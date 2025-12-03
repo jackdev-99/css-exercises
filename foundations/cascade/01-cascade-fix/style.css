@@ -1,23 +1,23 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
 }
-
+/* my code is correct but take a look at solution.css */
+/* here it's not the same  */
 .para,
 .small-para {
   color: hsl(0, 0%, 0%);
   font-weight: 800;
 }
 
-.small-para {
+.para.small-para {
   font-size: 14px;
-  font-weight: 800;
 }
 
 .para {
   font-size: 22px;
 }
-
-.confirm {
+/* the buttons features in my code is same as in the solution */
+#confirm-button {
   background: green;
   color: white;
   font-weight: bold;
@@ -28,8 +28,8 @@ body {
   color: rgb(0, 0, 0);
   font-size: 20px;
 }
-
-.child {
+/* also here it's the same  */
+.text.child {
   color: rgb(0, 0, 0);
   font-weight: 800;
   font-size: 14px;
@@ -40,3 +40,4 @@ div.text {
   font-size: 22px;
   font-weight: 100;
 }
+
