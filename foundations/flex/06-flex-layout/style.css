@@ -5,8 +5,41 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
 }
-
+/* when header is flex container, its children is left-links and right-links */
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
+}
+.footer {
+  background-color: #eeeeee;
+  display: flex;
+  justify-content: space-between;
+  padding: 8px; 
+}
+/* left-links is flex container and its items is 2 links  */
+.left-links, .right-links {
+  display: flex;
+  gap: 16px;
+}
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  color: #7b7878;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  flex: 1;
+}
 img {
   width: 600px;
 }
@@ -16,6 +49,7 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  padding: 8px;
 }
 
 input {
